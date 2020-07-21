@@ -7,6 +7,10 @@ These tutorials accompany the presentation [Introduction to Kubernetes][intro-sl
 a variety of virtualization engines. To install it and the other tutorial dependencies, see the
 [Installation Guides](#installation-guides) section.
 
+Lets install minikube and please refer to your OS for more details
+
+https://minikube.sigs.k8s.io/docs/start/
+
 Each section assumes an instance of minikube is up and running. To start minikube for the first time, use the command:
 ```
 minikube start --kubernetes-version v1.15.1
@@ -36,7 +40,7 @@ completed.
 
 ## Installation Guides
 
-Ensure your laptop has Virtualization Extensions (Intel VT or AMD-V) enabled and is capable of running a 2 core, 2GB
+Ensure your laptop is capable of running a 2 core, 2GB
 RAM Virtual Machine.
 
 The Installation guides are centered around using the Virtualbox Hypervisor. [Others are available][minikube-hypervisors],
@@ -187,9 +191,6 @@ minikube start --kubernetes-version v1.15.1
 ```
 That should hopefully resolve the kubeadm init error.
 
-
-
- [intro-slides]: https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5SMco/edit?usp=sharing
  [minikube]: https://github.com/kubernetes/minikube
  [minikube-hypervisors]: https://github.com/kubernetes/minikube#requirements
  [brew]: https://brew.sh/
